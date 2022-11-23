@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+
+const Menubar = () => {
   return (
-    <header>
+    <header className='menubar'>
       <div className='logo'>
         <h1>K.NAKAMURA</h1>
       </div>
@@ -31,4 +32,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Menubar
