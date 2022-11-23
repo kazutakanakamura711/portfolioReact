@@ -12,10 +12,7 @@ const HamburgerContent = ({ isOpen, onClick }) => {
             <Link to="/">TOP</Link>
           </li>
           <li onClick={onClick}>
-            <Link to="/profile">PROFILE</Link>
-          </li>
-          <li onClick={onClick}>
-            <Link to="/works">WORKS</Link>
+            <Link to="/about">ABOUT</Link>
           </li>
           <li onClick={onClick}>
             <Link to="/gallery">GALLERY</Link>

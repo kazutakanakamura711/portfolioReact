@@ -1,16 +1,13 @@
 .menubar {
   color: $mainFontColor;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background: rgb(255, 255, 255);
-  // position: fixed;
+  flex-direction: row-reverse;
+  position: fixed;
   width: 100%;
+  top: 16px;
+  right: 16px;
   z-index: 10;
-  .logo {
-    font-size: 3.6rem;
-    letter-spacing: 4px;
-  }
   ul {
     font-size: 2.4rem;
     letter-spacing: 2px;
@@ -20,12 +17,12 @@
     li {
       cursor: pointer;
       margin-right: 16px;
-      transition: .3s;
+      transition: 0.3s;
       &:last-child {
         margin-right: 0;
       }
       &:hover {
-        opacity: .5;
+        opacity: 0.5;
       }
     }
   }
